@@ -1,4 +1,4 @@
-<?php include_once './dbclass.php';
+<?php include_once '../db/db.class.php';
 try 
 {
   $dbclass = new DBClass(); 
