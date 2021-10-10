@@ -1,4 +1,4 @@
-include_once './dbclass.php';
+<?php include_once './dbclass.php';
 try 
 {
   $dbclass = new DBClass(); 
@@ -11,3 +11,4 @@ catch(PDOException $e)
 {
     echo $e->getMessage();
 }
+?>
