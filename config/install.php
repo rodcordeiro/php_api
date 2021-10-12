@@ -2,7 +2,6 @@
 try 
 {
   $dbclass = new DBClass(); 
-echo $dbclass;
   $connection = $dbclass.getConnection();
   $sql = file_get_contents("database/database.sql"); 
 echo $sql;
