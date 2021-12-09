@@ -1,6 +1,7 @@
 <?php
 class DBClass {
 
+    echo "oi";
 
     public $connection;
 
