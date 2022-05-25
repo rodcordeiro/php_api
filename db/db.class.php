@@ -1,7 +1,10 @@
 <?php
 class DBClass {
 
-    echo "oi";
+    private $host = getenv('CONN_URI');
+    private $username = getenv('CONC_MYSQL_USER');
+    private $password = getenv('CONC_MYSQL_PASSWORD');
+    private $database = getenv('CONC_MYSQL_DATABASE');
 
     public $connection;
 
